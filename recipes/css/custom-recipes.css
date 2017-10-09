@@ -1,0 +1,93 @@
+@charset "utf-8";
+	nav.breadcrumb {
+		  font-size:0.8em;
+		  background-color:transparent;
+		  padding:0;
+		margin:1.0em;
+	  }  
+	
+	h1 {
+	font-family: gothamlight;
+	font-size:2.0em;
+	text-align:center;
+	color:#49191e;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-bottom-color: #cecece;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	margin: 0 auto;
+}
+	h2 {
+	font-family: gothamlight;
+	font-size:1.33em;
+	text-align:left;
+	color:#49191e;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding: 0.3em 0 0 0.9em;
+}
+	 @font-face {
+    font-family: 'gothamlight';
+	src: 	
+	local('../css/fonts/GothamLight'),	
+url('../../css/fonts/gotham-light.eot?#iefix') format('embedded-opentype'),  
+url('../../css/fonts/gotham-light.otf') format('opentype'),
+url('../../css/fonts/gotham-light.woff') format('woff'), 
+url('../../css/fonts/gotham-light.ttf') format('truetype'), 
+url('../../css/fonts/gotham-light.svg#Gotham-Light') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}  
+	  ul {
+		  padding-left: 1.2em;
+	  }  
+	  
+	footer {
+	background-color:#49181e;
+	color:#FFFFFF;    
+	bottom: 0;
+    height: 70px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+ .footerLinks > a {
+	color:#FFFFFF;
+}
+
+.img-responsiveRecipes {
+    max-width: 1024px;
+    margin: 0 auto; 
+    }
+
+.navFooter {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin:1em;
+	width:100%;
+}
+.navFooter > li > a {
+	color:#FFFFFF;
+}  
+
+.rowRecipes {
+align-items: center;		
+}
+  
+@media only screen and (max-device-width: 667px) and (min-device-width: 375px) and (orientation: portrait)
+{
+	
+	.img-responsiveRecipes {
+	max-width: 375px;
+    margin: 0 auto;
+    
+}
+	
+	.privacy-text {
+		display: none;
+	}
+}
