@@ -83,7 +83,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 
 
 <div>
-  <div class="row vertical-center">
+  <div class="row vertical-center"  style="height:100vh">
     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
        <img src="images/products/Josh-Cellars-Reserve.png" alt="Josh Cellars Reserve" class="imgBottle-responsive" /></div>
         <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9">
@@ -98,10 +98,18 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
                             <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
                               <p>Grilled steak, short ribs, braised red cabbage, roasted duck</p>
+                              
                               <a href="store-locator.php">
-							  <div class="btn btn-success pull-center">
-				Find Josh Reserve</div>
-							  </a>
+								<div class="btn btn-success pull-center">Find in Stores
+									<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+						      </a>
+						 		<a a href="https://drizly.com/josh-cellars-north-coast-family-reserve-cabernet-sauvignon/p66563" style="text-decoration:none" >
+									<div class="btn pull-center buyNowProducts">Buy Now
+										<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+									</div>
+								</a>
+							  
                             </div>
           </div></div>
                     

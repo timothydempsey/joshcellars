@@ -98,7 +98,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 </header>
 
 <div><!-- class="container"-->
-  <div class="row vertical-center" >
+  <div class="row vertical-center" style="height:100vh">
     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
        <img src="images/products/Josh-Cellars-Legacy.png" alt="Josh Cellars Legacy" class="imgBottle-responsive" /></div>
         <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9">
@@ -113,13 +113,20 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
                             <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
                               <p>A rich, red wine crafted in honor of Josh. Pairs well with his favorite meal: a thick, juicy steak and potatoes.</p>
-                              <a href="store-locator.php?gProdNM=Josh%20Legacy">
-							  <div class="btn btn-success pull-center">
-				Find Josh Legacy</div>
-							  </a>
-                            </div>
-          </div></div>
-                    
+                              
+                              <a href="store-locator.php?gProdNM=Josh%20Legacy" style="text-decoration:none">
+								<div class="btn btn-success pull-center">Find in Stores
+									<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+                          	  </a>
+                           	 <a href="https://drizly.com/josh-cellars-legacy/p10240" style="text-decoration:none" >
+			  					<div class="btn pull-center buyNowProducts">Buy Now
+									<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+			  					</div>
+			  				 </a>
+        			  </div>
+                   </div>
+	  			</div>    
              <!--        <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2 hidden-xs hidden-sm pull-bottom" style="margin:0;padding:0;float:right">
                     <div id="demo">
 		<section id="examples">

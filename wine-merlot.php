@@ -98,7 +98,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 
 <div>
  
-    <div class="row vertical-center">
+    <div class="row vertical-center" style="height:100vh">
       <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">        
 		<img src="images/products/Josh-Cellars-Merlot.png"  alt="Josh Cellars Merlot" class="imgBottle-responsive" /></div>
          <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9">
@@ -114,32 +114,20 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 	<h3 class="style">FOOD PAIRINGS</h3></div>
                               <p>A classic pairing with Italian foods, particularly those with a tomato base, complemented with berries for dessert.</p>
-                            <a href="store-locator.php?gProdNM=Josh%20Cellars%20Merlot">
-                            <div class="btn btn-success pull-center">
-								Find Josh Merlot</div></a>
-          					</div></div>
-                    <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2 hidden-xs hidden-sm pull-bottom" style="margin:0;padding:0;float:right">
-                    <!--<div id="demo">
-		<section id="examples">
-			-->
-			<!-- demo content 
-			<div id="content-2" class="scrollerContent light">
-				<ul>
-					
-					<li><div class="text-center caption"><a href="wine-merlot"><img src="thumbnails/Josh-Cellars-Merlot.png" alt="Merlot"/></a><br/>MERLOT</div></li>
-					<li><div class="text-center caption"><a href="wine-legacy"><img src="thumbnails/Josh-Cellars-Legacy.png" alt="Legacy"/></a><br/>LEGACY</div></li>
-				<li><div class="text-center caption"><a href="wine-sauvignon-blanc"><img src="thumbnails/Josh-Cellars-Sauvignon-Blanc.png" alt="Sauvignon Blanc"/></a><br/>SAUVIGNON BLANC</div></li>
-					<li><div class="text-center caption"><a href="wine-chardonnay"><img src="thumbnails/Josh-Cellars-Chardonnay.png" alt="Chardonnay"/></a><br/>CHARDONNAY</div></li>
-					<li><div class="text-center caption"><a href="wine-pinot"><img src="thumbnails/Josh-Cellars-Pinot-Noir.png"  alt="Pinot Noir"/></a><br/>PINOT</div></li>
-					<li><div class="text-center caption"><a href="wine-cabernet-sauvignon"><img src="thumbnails/Josh-Cellars-Cabernet-Sauvignon.png" alt="Cabernet Sauvignon"/></a><br/>CABERNET SAUVIGNON</div></li>
-                    <li><div class="text-center caption"><img src="thumbnails/spacer.png" alt="spacer"/></div></li>
-				</ul>
-			</div>
-			<!-- -//- 
-		</section>
-	</div>-->
+                              
+                            <a href="store-locator.php?gProdNM=Josh%20Cellars%20Merlot" style="text-decoration:none">
+								<div class="btn btn-success pull-center">Find in Stores
+									<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+							</a>
+						   <a href="https://drizly.com/josh-cellars-cabernet-sauvignon/p20877" style="text-decoration:none" >
+								<div class="btn pull-center buyNowProducts">Buy Now
+									<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+			  			   </a>
+                
                     </div>      
-  </div><!-- end row -->
+			 </div></div><!-- end row -->
   
 <?php include("includes/footer.php"); ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins)  -->

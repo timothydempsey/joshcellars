@@ -83,8 +83,8 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 
 <div>
  
-<div class="row vertical-center">
-    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
+<div class="row vertical-center" style="height:100vh">
+    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-right">
     <img src="images/products/Josh-Cellars-Sauvignon-Blanc.png" alt="Josh Cellars Sauvignon Blanc" class="imgBottle-responsive" /></div>
         <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9">
            <h1 style="font-size:2.2em;">North Coast SAUVIGNON BLANC</h1>
@@ -99,14 +99,21 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 							<div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
             <p>Seafood apps & salad pair perfectly with this crisp, delicious white, followed by chicken and rice or pasta.</p>
-             <a href="store-locator.php?gProdNM=Josh%20Cellars%20Sauvignon%20Blanc">
-				<div class="btn btn-success pull-center">
-				Find Josh Sauvignon Blanc</div>
-			</a>
-            </div>
-          </div></div>
+            
+             <a href="store-locator.php?gProdNM=Josh%20Cellars%20Sauvignon%20Blanc" style="text-decoration:none">
+				<div class="btn btn-success pull-center">Find in Stores
+						<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
+					</div>
+             </a>
+            <a href="https://drizly.com/josh-cellars-sauvignon-blanc/p5213" style="text-decoration:none" >
+			  		<div class="btn pull-center buyNowProducts">Buy Now
+						<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+			  		</div>
+			  	</a>
+          </div>
+         </div>
                     
-                  
+	</div>          
   </div><!-- end row -->
   
   

@@ -87,7 +87,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 </header>
 <!-- Responsive navigation for smartphones -->
 <div>
- <div class="row vertical-center">
+ <div class="row vertical-center"  style="height:100vh">
     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
         <img src="images/products/Josh-Cellars-Chardonnay.png" alt="Josh Cellars Chardonnay" class="imgBottle-responsive"/>
     </div>
@@ -105,10 +105,16 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
                             <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
                             <p>Shellfish appetizers set the stage for a pasta pairing that’s perfect for this elegant wine.
-                            Or combine both for an amazing seafood-infused pasta dish.</p> <a href="store-locator.php?gProdNM=Josh%20Cellars%20Chardonnay">
-							  <div class="btn btn-success pull-center">
-				Find Josh Chardonnay</div>
-				</a></div>
+                            Or combine both for an amazing seafood-infused pasta dish.</p> 
+                            <a href="store-locator.php?gProdNM=Josh%20Cellars%20Chardonnay" style="text-decoration:none">
+							  <div class="btn btn-success pull-center">Find in Stores
+							  <i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i></div></a>
+							  <a a href="https://drizly.com/josh-cellars-chardonnay/p5211" style="text-decoration:none" >
+								<div class="btn pull-center buyNowProducts">Buy Now
+									<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+			  				  </a>
+				</div>
 				</div>
              </div>
 			</div><!-- end row -->

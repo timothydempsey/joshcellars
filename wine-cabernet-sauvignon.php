@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/fonts/font-awesome-4.5.0/css/font-awesome.css">
 <!-- plugin stylesheet -->
-<link rel="stylesheet" href="css/jquery.mThumbnailScroller.css">
+<!--<link rel="stylesheet" href="css/jquery.mThumbnailScroller.css"> NEEDED? -->
 <link rel="stylesheet" href="css/custom2.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,31 +33,9 @@
 
 		  display: flex;
 		  align-items: center;
-		}
-		
-		.scrollerContent{
-			overflow: auto;
-			position: relative;
-			padding: 0x;
-			margin: 0 auto;
-			/*width: 50%;*/
-			height: auto;
-		}
-		.scrollerContent li{
-			margin:0 auto;
-			overflow: hidden;
-		}
-		.scrollerContent li a{
-			display: inline-block;
-				}
-		.scrollerContent.light, .content.light .mTSButton{ background-color: rgba(0,0,0,0.2); }
-		
-		#content-2 {
-		  overflow: auto;
-		  width: 250px;
-		  height: 90vh;
-		}
+		}	
 	</style>
+	
 	<link href="http://www.joshcellars.com/wine-cabernet-sauvignon.html" rel="canonical" />
 </head>
 
@@ -83,7 +61,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 
  <div>
   
-  <div class="row vertical-center">
+  <div class="row vertical-center" style="height:100vh"><!-- fix for IE display:flex bug -->
    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">    
    	<img src="images/products/Josh-Cellars-Cabernet-Sauvignon.png" class="imgBottle-responsive"  alt="Josh Cellars Cabernet Sauvignon"/>
    </div>
@@ -103,10 +81,17 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 			<div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
 			 	<p>The complex flavor of this wine complements just about any well-seasoned meat such as beef, pork, or lamb, followed by an indulgent dessert or espresso.</p>
-				<a href="store-locator.php?gProdNM=Josh%20Cellars%20Cabernet%20Sauvignon">
-				<div class="btn btn-success pull-center">
-				Find Josh Cabernet Sauvignon</div>
-        		</a>
+			 	
+				<a href="store-locator.php?gProdNM=Josh%20Cellars%20Cabernet%20Sauvignon" style="text-decoration:none">
+					<div class="btn btn-success pull-center">Find in Stores
+						<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
+					</div>
+				</a>
+		  		<a href="https://drizly.com/josh-cellars-cabernet-sauvignon/p20877" style="text-decoration:none" >
+			  		<div class="btn btn-success pull-center buyNowProducts">Buy Now
+						<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+			  		</div>
+			  	</a>
          	</div>
           </div>
          </div>

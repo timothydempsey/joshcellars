@@ -35,27 +35,6 @@ With The Deutsch Family Since 2011 Big, bold and unforgettable. Long Live Josh">
 		  display: flex;
 		  align-items: center;
 		}
-		.scrollerContent{
-			overflow: auto;
-			position: relative;
-			padding: 0x;
-			margin: 0 auto;
-			/*width: 50%;*/
-			height: auto;
-		}
-		.scrollerContent li{
-			margin:0 auto;
-			overflow: hidden;
-		}
-		.scrollerContent li a{
-			display: inline-block;
-				}
-		.scrollerContent.light, .content.light .mTSButton{ background-color: rgba(0,0,0,0.2); }
-		
-		#content-2 {
-  overflow: auto;
-  width: 250px;
-  height: 90vh;
 }
 		
 	</style>
@@ -83,14 +62,13 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 <?php include("includes/navig.php"); ?>
 	</header>
 
-<div>
-  
-  <div class="row vertical-center">
+<div><!-- class="container"-->
+  <div class="row vertical-center" style="height:100vh">
     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
        <img src="images/products/Josh-Cellars-Rose.png" class="imgBottle-responsive" alt="Josh Cellars Rose">
     </div>
         
-    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9" >
+     <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9">
           <h1>ROSÉ</h1>
           <div class="wine-wrapper">
 			<div><div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-glass-1.gif" width="30" height="30" alt=""/>
@@ -102,12 +80,15 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
                            <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
                                <p>Pair this crisp rosé with light summer foods like goat cheese, gouda, fresh vegetables, and seafood (for example, shrimp cocktail, oysters, or steamed clams).</p>
-              <a href="store-locator.php?gProdNM=Josh%20Cellars%20Rose">
-							  <div class="btn btn-success pull-center">
-				Find Josh Rosé</div>
-				</a>
-                            </div>
-          				</div>
+							  <a href="store-locator.php?gProdNM=Josh%20Cellars%20Rose" style="text-decoration:none">
+								  <div class="btn btn-success pull-center">Find in Stores
+								  <i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i></div>
+							  </a>
+								<a a href="https://drizly.com/josh-cellars-rose/p61409" style="text-decoration:none" >
+						<div class="btn pull-center buyNowProducts">Buy Now
+							<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+						</div>
+					</a></div>
       
 	</div>  
   </div><!-- end row -->

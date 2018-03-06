@@ -97,7 +97,7 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 
 
 <div ><!--class="container"-->
-   <div class="row vertical-center">
+   <div class="row vertical-center"  style="height:100vh">
     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 pull-left">
          <img src="images/products/Josh-Cellars-Pinot-Noir.png"  alt="Josh Cellars Pinot Noir" class="imgBottle-responsive" /></div>
          
@@ -113,13 +113,20 @@ document.write('<iframe src="https://4449509.fls.doubleclick.net/activityi;src=4
 <div style="display:flex;align-items:center" class="iconHeader"><img src="images/icon-fork-1.gif" width="30" height="30" alt=""/>
 								<h3 class="style">FOOD PAIRINGS</h3></div>
                             <p>Pair  this pinot noir with roasted turkey or duck, soft cheese like Brie and Comte,  and hearty vegetables like stuffed mushrooms or braised cabbage. For dessert,  pair this pinot with chocolate glazed strawberries. </p>
-                            <a href="store-locator.php?gProdNM=Josh%20Cellars%20Pinot%20Noir">
+                            <a href="store-locator.php?gProdNM=Josh%20Cellars%20Pinot%20Noir" style="text-decoration:none">
 							  <div class="btn btn-success pull-center">
-								Find Josh Pinot Noir
+								Find in Stores
+									<i class="fa fa-map-marker fa-1" aria-hidden="true" style="color:#cecece"></i>
 							  </div>
 							</a>
-</div>
-          </div></div>
+							<a href="https://drizly.com/josh-cellars-pinot-noir/p5206" style="text-decoration:none" >
+								<div class="btn pull-center buyNowProducts">Buy Now
+									<i class="fa fa-shopping-cart fa-1" aria-hidden="true" style="color:#cecece"></i>
+								</div>
+			  				</a>
+						</div>
+          			</div>
+                 </div>
                       
   </div><!-- end row -->
   
